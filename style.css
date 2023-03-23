@@ -1,0 +1,19 @@
+.mio-logo {
+    width: 100px;
+    height: 75px;
+}
+
+.mio-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+   
+    font-family: 'Rajdhani', sans-serif;
+    Color: darkred, #C67F7F, #ececec
+}
+
+main {
+    background-image: url(media/switzerland-862870_1920.jpg);
+}
