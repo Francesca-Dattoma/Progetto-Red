@@ -32,8 +32,9 @@ li{
 }
 
 .sfondo {
-    background-image: url(./media/mountains.png),
+    background-image: url(./media/mountainsbrutta.png),
     linear-gradient(
+        
         rgba( 255, 255, 255, 1),
         rgba(255, 255, 255, 0)
         ),
@@ -48,4 +49,18 @@ h1 {
     font-size: 80px;
     letter-spacing: 70px;
     color: darkred;
+}
+
+.citazione{
+    max-width: 40%;
+
+}
+
+.virgolette{
+    color: darkred;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.mioparagrafo{
+    background-color: rgb(230, 230, 230);
 }
