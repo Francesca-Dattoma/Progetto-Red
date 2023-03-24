@@ -66,11 +66,47 @@ h1 {
 }
 
 .img_card {
-    width:80px;
-    height:80px;
+    width:30px;
+    height:30px;
+    
 }
 
 .linee {
     width: 100px;
     height: 15px;
+}
+
+.lorem-mio {
+    background-color: rgb(230, 230, 230);
+}
+
+.loghi-mio {
+    background-color: rgb(230, 230, 230);
+}
+
+.h3-lorem {
+    color: darkred;
+    
+}
+
+.sfondo-2 {
+
+  
+        
+}
+
+.button-mio-custom {
+    background-color: darkred;
+}
+
+.bottone-mio-section {
+    
+    background-image: url(./media/trees2.png);
+  
+    
+        background-color: rgb(230, 230, 230) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+   
 }
