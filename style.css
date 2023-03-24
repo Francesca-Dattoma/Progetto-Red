@@ -9,11 +9,35 @@
 }
 
 * {
-   
     font-family: 'Rajdhani', sans-serif;
     Color: darkred, #C67F7F, #ececec
 }
 
-main {
-    background-image: url(media/switzerland-862870_1920.jpg);
+.mioHeader{
+    background-image:
+    linear-gradient(
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0.182)), 
+        url(media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+
+.montagneb{
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mioh1{
+    font-family: 'Nova Square', 'cursive';
+    Color: darkred;
+    font-size:7rem;
+    letter-spacing:0.8em;
 }
