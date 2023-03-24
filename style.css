@@ -64,3 +64,13 @@ h1 {
 .mioparagrafo{
     background-color: rgb(230, 230, 230);
 }
+
+.img_card {
+    width:80px;
+    height:80px;
+}
+
+.linee {
+    width: 100px;
+    height: 15px;
+}
