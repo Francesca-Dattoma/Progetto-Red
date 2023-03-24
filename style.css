@@ -1,43 +1,51 @@
-.mio-logo {
-    width: 100px;
-    height: 75px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Nova Square, Rajdhani
 }
 
-.mio-container-1 {
+nav{  
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+
 }
-
-* {
-    font-family: 'Rajdhani', sans-serif;
-    Color: darkred, #C67F7F, #ececec
+#logo{
+    width: 250px;
+    height: 120px;
 }
+.mont{ 
 
-.mioHeader{
-    background-image:
-    linear-gradient(
-        rgb(255, 255, 255),
-        rgba(255, 255, 255, 0.182)), 
-        url(media/switzerland-862870_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    }
-
-.montagneb{
-    
-}
-
-.title{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.mioh1{
-    font-family: 'Nova Square', 'cursive';
-    Color: darkred;
-    font-size:7rem;
-    letter-spacing:0.8em;
+.indirizzi{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style: none;
+}
+
+.sfondo {
+    background-image: url(./media/mountains.png),
+    linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ),
+        url(./media/switzerland-862870_1920.jpg);
+        background-position:center, center;
+        background-size: cover, cover;
+}
+
+  
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 70px;
+    color: darkred;
 }
