@@ -85,9 +85,10 @@ h1 {
 }
 
 .h3-lorem, .titolo-timeline, h4 {
-    color: darkred;
+    color: darkred !important;
     
-}
+
+  }
 
 
 .button-mio-custom {
@@ -186,3 +187,62 @@ h1 {
     }
   }
 
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: black;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+    color: #8b0000;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: darkred;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+ 
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+  
+}
+
+.team-cards-custom {
+  background-color: rgb(230, 230, 230);
+}
+
+.team4 img {
+
+  max-width: 150px;
+  
+}
+
+.bordo-esterno-mio {
+  border: #8b0000 solid 3px;
+  border-radius: 50%;
+  max-width: 165px;
+  padding:  6px;
+}
