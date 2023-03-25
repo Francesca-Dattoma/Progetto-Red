@@ -85,7 +85,7 @@ h1 {
     background-color: rgb(230, 230, 230);
 }
 
-.h3-lorem, .titolo-timeline, h4 {
+.h3-lorem, .titolo-timeline, h4, h3 {
     color: darkred !important;
     
 
@@ -231,7 +231,7 @@ h1 {
   
 }
 
-.team-cards-custom {
+.team-cards-custom, .benefit-custom {
   background-color: rgb(230, 230, 230);
 }
 
@@ -247,3 +247,12 @@ h1 {
   max-width: 165px;
   padding:  6px;
 }
+
+.img-benefit{
+  max-width: 215px;
+  max-height: 250px;
+  border: #8b0000 solid 3px;
+  border-radius: 50%;
+  padding:  6px;
+}
+
