@@ -89,6 +89,10 @@ h3 {
   background-color: darkred;
 }
 
+.button-mio-custom:hover {
+  background-color: #316ce8;
+}
+
 .bottone-mio-section {
   background-image: url(./media/trees2.png);
   background-color: rgb(230, 230, 230);
